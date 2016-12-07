@@ -1,0 +1,25 @@
+package easy;
+
+public class removeDuplicatesArray {
+	public static void main(String[] args){
+		int[] a = {1,1,2,3,4,5,5,7,8,8};
+		System.out.println(removeDuplicates(a));
+	}
+	
+    public static int removeDuplicates(int[] nums) {
+        int count = 0;
+        int index = 0;
+        int next = 1;
+        while(next < nums.length){
+        	if(nums[index] != nums[next]){
+        		count ++;
+        		index = next;
+        		next ++;
+        	}else {
+        		next ++;
+
+        	}
+        }
+    	return nums[count+1];
+    }
+}

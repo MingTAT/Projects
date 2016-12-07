@@ -1,0 +1,24 @@
+package easy;
+
+public class removeDuplicatesArray {
+	public static void main(String[] args){
+		int[] a = {1,1,2,3,4,5,5,7,8};
+		System.out.println(removeDuplicates(a));
+	}
+	
+    public static int removeDuplicates(int[] nums) {
+        int count = 0;
+        int next = 1;
+        for(int i = 0; i < nums.length; i++){
+        	if(nums[i] == nums[next]){
+        		next ++;
+        	}else {
+        		count ++;
+        		i = next;
+        		next ++;
+
+        	}
+        }
+    	return count;
+    }
+}

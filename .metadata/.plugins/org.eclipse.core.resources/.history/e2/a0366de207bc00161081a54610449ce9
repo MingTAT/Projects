@@ -1,0 +1,21 @@
+package easy;
+
+public class multiof5_3 {
+	public static void main(String[] args){
+		int test = 1000;
+		System.out.println(multi(test));
+	}
+	
+	public static long multi(int n){
+		int count = 2;
+		for(int i = 2; i <= 1000; i++){
+			if((i % 3) == 0 || (i % 5) == 0){
+				count = count * i;
+				System.out.println(count);
+			}
+			
+		}
+		return count;
+		
+	}
+}

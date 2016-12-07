@@ -1,0 +1,23 @@
+package easy;
+
+public class multiof5_3 {
+	public static void main(String[] args){
+		int test = 1000;
+		System.out.println(multi(test));
+	}
+	
+	public static long multi(int n){
+		long count = 1;
+		for(int i = 1; i <= n; i ++){
+			if((n % 3) == 0 && (n % 5) == 0){
+				count = count * i;
+				
+			}
+			else if(n % 3 == 0) count = count * i;
+			else if(n % 5 == 0) count = count * i;
+			
+		}
+		return count;
+		
+	}
+}
