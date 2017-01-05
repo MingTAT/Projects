@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthy.healthyhelper" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".login.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity
+            android:name=".login.LoginActivity"
+            android:hardwareAccelerated="true"
+            android:label="登录界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".register.RegistActivity"
+            android:hardwareAccelerated="true"
+            android:label="注册界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teacher.TeacherActivity"
+            android:hardwareAccelerated="true"
+            android:label="教师界面"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.StudentActivity"
+            android:hardwareAccelerated="true"
+            android:label="学生界面"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.test.InfoActivity"
+            android:hardwareAccelerated="true"
+            android:label="测试报告界面"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

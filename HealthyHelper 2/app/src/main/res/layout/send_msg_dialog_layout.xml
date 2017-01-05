@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/titleRL"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            >
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:text="原因"
+                android:textSize="30px"/>
+            <ImageView
+                android:id="@+id/closeBT"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="20px"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/bt_close"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="1dp"
+                android:background="#c9c9c9"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/message"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dip"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip" >
+
+            <RelativeLayout
+                android:id="@+id/dialog_btn1_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/dialog_btn1"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_width="100dip"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_solid_gray"
+                    android:text="取消" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dialog_btn2_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/dialog_btn2"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_width="100dip"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_solid_blue"
+                    android:text="确定" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

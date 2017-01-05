@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="登录用户:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/planName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="您的体质为:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <com.jp.wheelview.WheelView
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemNumber="3"
+        app:lineColor="@color/buttonColorOff"
+        app:maskHight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="@color/buttonColorOff"
+        app:normalTextSize="20sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHight="80dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/planGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/foodRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="食谱建议"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/traubProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="训练计划"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
