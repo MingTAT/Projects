@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CPRE458</string>
+    <string name="computation_time_for_task">C:</string>
+    <string name="period_for_task">P:</string>
+    <string name="dead_line_for_task">D:</string>
+    <string name="add_task_string">ADD TASK</string>
+    <string name="schedule_task_string">SCHEDULE</string>
+    <string name="results_string">Results</string>
+    <string name="rms_string">RMS:</string>
+    <string name="edf_string">EDF:</string>
+    <string name="llf_string">LLF:</string>
+    <string name="clear_task_string">REMOVE ALL TASK</string>
+</resources>
