@@ -9,7 +9,7 @@ public class FoodPlan {
 
 
     /**
-     * day : Tu
+     * day : Tu（Tu）
      * breakfast : Fat-free milk(200ml) + 1 Egg yolk + 2 Egg white + Grain gruel(250g) + 1 Serving fruit
      * lunch : Fish(150g) + Grain rice(150g) + Vegetable(unlimited) + Shrimp(150g) + Vegetable(unlimited)
      * dinner : Shrimp(150g) + Vegetable(unlimited)
