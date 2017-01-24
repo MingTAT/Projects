@@ -3,102 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="cf9754bfa8484f88f26e45d28fe298daa544d4f0">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.mcxiaoke.volley-library-aar-1.0.1_b60c717b67992df66f376b874810546e67545e32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.zhy/okhttputils/2.3.9/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="609e43f37ec3fb38728d04d79a2742607efd258f">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.zhy-okhttputils-2.3.9_7bcfd90604111129927c7e803231312b1f5fad12.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_3ca64dc60c9c46ba6b1ba2af32d833f8dc2bee2e.jar" />
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_b094410dfc93fb6fdf112e70f9b41439779792b5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_d9e1e44169d1b7a9b13b6e6385520643f203220a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_9a24293de9d259b3cbaacae6b725b709931c4d84.jar" />
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_3bbea5e033b88116bddbc08ea2dc7fc00e714c99.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lvhuan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/okio-1.6.0_f51c67e9dc0751e16d2d5c934b6240056a471629.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_23b8a07346e8075ae6ca2055fe528b4c9decf92b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lvhuan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_31a989149e078104c90b4f8963139deae3a484f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lvhuan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_f948a13db7f0e2121d2a29c364365097f826d640.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_dabb9787677821e141ec6f9f14073f637eb7c4b9.jar" />
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_3092d120c32cbb056387a9810ded8c21b3b2709d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.zhy/okhttputils/2.3.9/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="2a5aee39e67ff840afcc93b7339ace3c2be1dc0e">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_392e4cb0fdabefee29b887412ae8bfb0b5c9a2ff.jar" />
+        sha1="609e43f37ec3fb38728d04d79a2742607efd258f">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.zhy-okhttputils-2.3.9_02c9dd9f3268de865b9a63df07392aaa4f9da430.jar" />
     </item>
     <item
         is-multidex="false"
@@ -107,16 +44,79 @@
         optimize="true"
         revision="23.0.2"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/ming/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="ea21d657c82a4f158bfadfa581d9dc88e4d6cd2b">
-        <dex dex="/Applications/AndroidProject/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/instant-run_dbc8eb4b6d3c1be0f14d9d36cb079e2710ecd70b.jar" />
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/okio-1.6.0_2c1a1684c348698ebf24bb935bb524247419c33f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_17f3ec0886608eb29e2f25b5a797d37432904c0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_ff97b2b2d63e0a0dc1219945a0639b47619ea335.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_fefa9d376d130578d9f335353eb10654b2ecbe08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cf9754bfa8484f88f26e45d28fe298daa544d4f0">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/com.mcxiaoke.volley-library-aar-1.0.1_7bacc956a600918a7a9a795c6f3b4981da640423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2a150fea6faa234c0dcd22a1719d21be7514efaf">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_7ef742ef3669a5e74cde2f1bbdd06104b55594dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7fcde53d048f1fad22f2ece0ba6c62535b22ed18">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/instant-run_1d51069bd1a6bd5020b3bfc711eebe06531d440f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ming/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/ming/SchedulingSimulation/HealthyHelper 2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_f58acff7761ac1146b2c26dbe4327e5b07be8456.jar" />
     </item>
 
 </items>

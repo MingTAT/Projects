@@ -1,19 +1,3 @@
-
-/**
- * Copyright: Copyright (c) 2015 dazhebao
- *
- * @ClassName: ToastUtil
- * @Description:
- * @version: v1.0.0
- * @author: 吕欢
- * @date: 2015年12月1日
- * <p/>
- * Modification History:
- * Date           Author            Version            Description
- * ----------------------------------------------------------------*
- * 2015年12月1日         吕欢              v1.0.0                创建
- */
-
 package com.healthy.healthyhelper.util;
 
 import android.content.Context;

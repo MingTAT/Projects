@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/Users/ming/SchedulingSimulation/HealthyHelper 2/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/ming/SchedulingSimulation/HealthyHelper 2/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
         "merged": "/Applications/AndroidProject/HealthyHelper 2/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
         "source": "/Applications/AndroidProject/HealthyHelper 2/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "/Applications/AndroidProject/HealthyHelper 2/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
         "source": "/Applications/AndroidProject/HealthyHelper 2/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/ming/SchedulingSimulation/HealthyHelper 2/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/ming/SchedulingSimulation/HealthyHelper 2/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
     }
 ]

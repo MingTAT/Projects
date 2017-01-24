@@ -1,18 +1,4 @@
 
-/**
-* Copyright: Copyright (c) 2015 dazhebao
-* @ClassName: BaseFragment 
-* @Description: 
-* @version: v1.0.0
-* @author:  吕欢
-* @date:  2015年11月25日 
-* 
-* Modification History:
-* Date           Author            Version            Description
-*----------------------------------------------------------------*
-* 2015年11月25日         吕欢              v1.0.0                创建
-*/
-
 package com.healthy.healthyhelper.base;
 
 import android.app.ProgressDialog;
