@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/out/production/WebCrawler" />
+    <output-test url="file://$MODULE_DIR$/out/test/WebCrawler" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../jackson-annotations-2.8.3 (1).jar!/" />
+          <root url="jar://$MODULE_DIR$/../jackson-core-2.8.3 (1).jar!/" />
+          <root url="jar://$MODULE_DIR$/../jackson-databind-2.8.3 (1).jar!/" />
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2 (1).jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2-javadoc (1).jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2-sources (1).jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../forge-1.11.2-13.20.0.2227-installer.jar!/" />
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../jsoup-1.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../download/forge-1.11.2-13.20.0.2227-installer.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../download/jackson-annotations-2.8.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../download/jackson-core-2.8.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../download/jackson-databind-2.8.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../download/jsoup-1.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/../../download/jsoup-1.10.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../download/jsoup-1.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../download/log4j-api-2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../download/log4j-core-2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
