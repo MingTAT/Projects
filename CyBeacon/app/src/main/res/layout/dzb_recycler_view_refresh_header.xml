@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/tvRefresh"
+        android:background="@drawable/xsearch_msg_pull_arrow_down" />
+
+    <ImageView
+        android:id="@+id/ivSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/tvRefresh"
+         />
+
+    <!--<ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleSmallInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="48dp"
+        android:layout_toLeftOf="@+id/tvRefresh" />-->
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/tvRefresh"
+        android:indeterminateDrawable="@anim/update_loading_progressbar_anim"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#777"
+        android:textSize="12sp"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+</merge>

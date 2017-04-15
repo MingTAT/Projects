@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CyBeacon</string>
+    <string name="error_message_tip">^.^，sorry,please try again~</string>
+    <string name="button_student">Student</string>
+    <string name="button_professor">Professor</string>
+    <string name="add_anouncement">Add Anouncement</string>
+    <string name="add_command">Add Command</string>
+    <string name="sendMsg">Send Message</string>
+</resources>

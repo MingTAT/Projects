@@ -1,0 +1,1 @@
+include ':app', 'extras:base-adapter-library', 'extras:IRecyclerView', 'extras:baseadapter-recyclerview'

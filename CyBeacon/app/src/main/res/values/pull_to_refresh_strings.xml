@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pushmsg_center_no_more_msg">Is over!</string>
+    <string name="pushmsg_center_pull_up_text">Loosen the load more</string>
+    <string name="pushmsg_center_pull_down_text">pull down to refresh</string>
+    <string name="pushmsg_center_pull_release_text">release to refresh</string>
+    <string name="pushmsg_center_pull_down_update_time">the last update time: </string>
+    <string name="pushmsg_center_load_more_ongoing_text">in the efforts to refresh...</string>
+    <string name="xsearch_loading">in the efforts to refresh...</string>
+
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pull_to_refresh_header_hint_normal">@string/pushmsg_center_pull_down_text</string>
+    <string name="pull_to_refresh_header_hint_normal2">Pull to refresh</string>
+    <string name="pull_to_refresh_header_hint_ready">Loosen the refresh after</string>
+    <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
+    <string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string>
+    <string name="pull_to_refresh_footer_hint_ready">Loosen the load more</string>
+    <string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string>
+</resources>

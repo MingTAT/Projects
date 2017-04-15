@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/userNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape_login_input"
+        android:drawableLeft="@drawable/icon_account"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:hint="Please enter your user name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="#949494"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/userPasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/shape_login_input"
+        android:drawableLeft="@drawable/icon_password"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:hint="Please enter the password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="#949494"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="login"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_login_button"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="320dp"
+        android:layout_gravity="right"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="30dp"
+        android:text="register"
+        />
+</FrameLayout>
