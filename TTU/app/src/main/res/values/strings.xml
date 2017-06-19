@@ -1,0 +1,49 @@
+<resources>
+    <!-- Using in dialog -->
+    <string name="PROGRESS_DIALOG_TITLE">請稍候</string>
+    <string name="PROGRESS_DIALOG_MESSAGE">讀取資料中&#8230;</string>
+
+    <!-- APP defined error message -->
+    <string name="ERROR_NO_INTERNET">目前沒有網路連接，請開啟行動數據或WiFi。</string>
+    <string name="ERROR_NO_USER_INFO">帳號或密碼不存在，輸入後請輕觸登入鍵。</string>
+    <string name="ERROR_SERVER_FAIL">登入失敗，伺服器忙線中，請稍後再試，如果還是無法登入，請洽詢後端管理人員。</string>
+    <string name="ERROR_MCRYPTION_FAIL">加解密失敗，請洽詢後端管理人員。</string>
+
+    <!-- Server defined error message -->
+    <string name="ERROR_PARAMETER_ERROR">參數錯誤，請洽詢後端管理人員。</string>
+    <string name="ERROR_ACCOUNT_NOT_EXISTS">帳號或密碼錯誤，請洽詢後端管理人員。</string>
+    <string name="ERROR_ACCOUNT_NOT_REGISTRATION">該帳號未註冊，請洽後端管理人員。</string>
+    <string name="ERROR_ACCOUNT_REGISTRATION_NOT_MATCH">該帳號重複註冊，請洽詢後端管理人員清除註冊資料。</string>
+    <string name="ERROR_PWD_DECRYPTION">密碼解析錯誤，重新輸入後請輕觸登入鍵重新登入，如果還是無法登入，請洽詢後端管理人員。</string>
+    <string name="ERROR_PWD_WRONG">帳號或密碼錯誤，重新輸入後請輕觸登入鍵重新登入。</string>
+    <string name="ERROR_SESSION_KEY_EXPIRATION">Session Key 過期，請洽詢後端管理人員</string>
+    <string name="ERROR">重新登入。</string>
+
+    <!--Using in main activity -->
+    <string name="app_name">大同校園APP</string>
+    <string name="password">密碼</string>
+    <string name="account">帳號</string>
+    <string name="login">登入</string>
+    <string name="login_processing">登入中&#8230;</string>
+    <string name="InformationSystems">資訊系統</string>
+    <string name="submit">登入</string>
+
+    <!--Using in board -->
+    <string name="text">TextView</string>
+    <string name="start">Start</string>
+
+    <!--Using in CisWeb -->
+    <string name="logout">登出</string>
+
+    <!--Using in Menu -->
+    <string name="board">佈告欄</string>
+    <string name="traffic">交通資訊</string>
+    <string name="aboutttu">關於大同</string>
+    <string name="telemail">聯絡資訊</string>
+    <string name="emergency">緊急校安</string>
+    <string name="schedule">行事曆</string>
+    <string name="sign">签到</string>
+    <string name="startScan">开始扫描</string>
+    <string name="stopScan">停止扫描</string>
+
+</resources>

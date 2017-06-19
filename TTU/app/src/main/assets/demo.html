@@ -1,0 +1,112 @@
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+        beacon service 测试页面
+    </title>
+</head>
+
+<body>
+<p>
+    <input type="button" id="getServiceStatus" value="获取服务状态" onclick="getServiceStatus();"/>
+</p>
+<p>
+    <input type="button" id="startBtn" value="扫描Beacon" onclick="startScan();"/>
+</p>
+<p>
+    <input type="button" id="startService" value="开启服务" onclick="startService();"/>
+</p>
+<p>
+    <textarea id="show" style="width:100%;min-height: 600px"></textarea>
+</p>
+
+</body>
+<script>
+    //开启beacon扫描,注意，这个函数只是用来开启扫描的，不会返回扫描到的beacon数据，beacon数据会异步回调给beaconScanCallback，所以页面的业务逻辑要在beaconScanCallback中处理，记得在
+    //回调函数中返回success，让native停止扫描，否则native会一直扫描满5次，才会停止扫描
+    function startScan() {
+        //call native method
+        window.WebViewJavascriptBridge.callHandler(
+                'beaconService',
+                {
+                    'businessCode': 1
+                },
+                function (responseData) {
+                    //回调函数
+                    Log(document.getElementById("show").innerHTML = "开始扫描...native 返回 = " + responseData);
+                }
+        );
+    }
+    ;
+
+    //获取beacon扫描服务状态，是否开启
+    function getServiceStatus() {
+        //call native method
+        window.WebViewJavascriptBridge.callHandler(
+                'beaconService',
+                {
+                    'businessCode': 2
+                },
+                function (responseData) {
+                    //回调函数
+                    Log("获取beacon扫描服务状态...native 返回 = " + responseData);
+                }
+        );
+    }
+    ;
+
+    //开启beacon扫描服务
+    function startService() {
+        //call native method
+        window.WebViewJavascriptBridge.callHandler(
+                'beaconService',
+                {
+                    'businessCode': 3
+                },
+                function (responseData) {
+                    //回调函数
+                    Log("开启beacon扫描服务...native 返回 = " + responseData);
+                }
+        );
+    };
+
+    //打印返回消息到text area
+    function Log(logContent) {
+        document.getElementById("show").innerHTML = logContent;
+    }
+
+    function connectWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) {
+            callback(WebViewJavascriptBridge)
+        } else {
+            document.addEventListener(
+                    'WebViewJavascriptBridgeReady'
+                    , function () {
+                        callback(WebViewJavascriptBridge)
+                    },
+                    false
+            );
+        }
+    }
+
+    connectWebViewJavascriptBridge(function (bridge) {
+        bridge.init(function (message, responseCallback) {
+            //bridge 初始化
+            console.log('JS got a message', message);
+            responseCallback(data);
+        });
+
+        //注册扫描beacon的回调方法
+        bridge.registerHandler("beaconScanCallback", function (data, responseCallback) {
+            Log("获取到beacon数据: = " + data);
+            //这里返回的数据格式是一个jsonArray，如果有多台beacon，这里会返回多台
+            //返回给Native,很重要,不然native会多次回调这个函数,一定要通知native已经收到beacon,不过如果没收到,这里可以不返回,native最多扫描5次,会自动停止
+            var responseData = "success";
+            responseCallback(responseData);
+        });
+    })
+
+
+</script>
+
+</html>

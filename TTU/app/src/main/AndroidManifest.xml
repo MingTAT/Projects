@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ttu.ttu">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--add by Ming BLUETOOTH permission -->
+    <!-- 需要添加蓝牙相关权限才可以使用 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 声明应用需要使用设备的蓝牙BLE -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <application
+        android:name=".TTUApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".board.BoardList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".board.BrowserBoard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cis.CisWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Traffic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Aboutttu"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:label="签到页面"
+            android:name=".sign.SignActivity"
+            android:screenOrientation="portrait"/>
+        <receiver
+            android:name=".board.ReceiveBootCompleted"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".board.NotificationService" />
+
+        <activity
+            android:name=".TeleMail.TeleMail1"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".TeleMail.TeleMail2"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".schedule.ScheduleList"
+            android:screenOrientation="portrait"/>
+
+        <!-- 扫描beacon的服务 -->
+        <service
+            android:name="com.aprilbrother.aprilbrothersdk.service.BeaconService"
+            android:exported="false" />
+        <!-- 修改省电王需要配置的服务 -->
+        <service
+            android:name="com.aprilbrother.aprilbrothersdk.services.ABeaconUartService"
+            android:exported="false" />
+        <service
+            android:name="com.aprilbrother.aprilbrothersdk.services.UartService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

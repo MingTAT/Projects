@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:text="@string/text"
+        android:id="@+id/telemailtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="9dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/telemailtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:text="@string/text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    </TextView>
+</RelativeLayout>

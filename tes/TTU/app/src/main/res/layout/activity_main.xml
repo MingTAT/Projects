@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttu.ttu.login.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="horizontal"
+        android:background="#4cb2cf">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.1"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/aboutttulogo"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/word2"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InformationSystems"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/editTextAccount"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:textColorHint="@color/lightgrey"
+            android:hint="@string/account"
+            android:maxLength="10"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPwd"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:textColorHint="@color/lightgrey"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:maxLength="10"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:background="#4cb2cf"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:minWidth="64dp"
+            android:text="@string/submit"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
